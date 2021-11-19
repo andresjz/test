@@ -34,5 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          mkdir ~/.ssh/ 
           cp .github/workflows/config ~/.ssh/config
           cat ~/.ssh/config
