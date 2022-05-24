@@ -18,12 +18,12 @@ runs:
       run: curl -sSfL https://raw.githubusercontent.com/jckuester/awsweeper/master/install.sh | sh -s v0.12.0
     - name: Configure config file
       shell: bash
-      run: echo "configure" && awsweeper --help
+      run: echo "configure" && ./bin/awsweeper --help
     - name: Run AWSweeper dry-run mode
       if: ${{ inputs.dry_run }}
       shell: bash
-      run: awsweeper --dry-run config.yml
+      run: ./bin/awsweeper --dry-run config.yml
     - name: Run AWSweeper dry-run mode
       if: ${{ inputs.dry_run == false }} # https://github.com/actions/runner/issues/1483
       shell: bash
-      run: echo "deleting awsweeper config.yml"
+      run: echo "deleting ./bin/awsweeper config.yml"
