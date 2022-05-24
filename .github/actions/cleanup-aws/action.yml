@@ -15,10 +15,10 @@ runs:
       uses: actions/checkout@v2
     - name: Install AWSweeper
       shell: bash
-      run: curl -sSfL https://raw.githubusercontent.com/jckuester/awsweeper/master/install.sh | sh -s v0.12.1
+      run: curl -sSfL https://raw.githubusercontent.com/jckuester/awsweeper/master/install.sh | sh -s v0.12.0
     - name: Configure config file
       shell: bash
-      run: echo "configure"
+      run: echo "configure" && awsweeper--help
     - name: Run AWSweeper dry-run mode
       if: ${{ inputs.dry_run }}
       shell: bash
