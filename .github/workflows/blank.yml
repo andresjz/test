@@ -41,5 +41,3 @@ jobs:
         uses: ./.github/actions/cleanup-aws@awsweeper
         with:
           dry_run: true
-
-
