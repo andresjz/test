@@ -1,0 +1,28 @@
+name: Cleanup AWS
+description: run cleanup on AWS using AWSweeper
+branding:
+  icon: "trash-2"
+  colour: "green"
+inputs:
+  config_file:
+    required: true
+  dry_run:
+    required: false
+    default: true
+    type: boolean
+runs:
+  using: composite
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Install AWSweeper
+      shell: bash
+      run: curl -sSfL https://raw.githubusercontent.com/jckuester/awsweeper/master/install.sh | sh -s v0.12.0
+    - name: Run AWSweeper dry-run mode
+      if: ${{ inputs.dry_run }}
+      shell: bash
+      run: ./bin/awsweeper --dry-run ${{ inputs.file }}
+    - name: Run AWSweeper dry-run mode
+      if: ${{ inputs.dry_run == false }} # https://github.com/actions/runner/issues/1483
+      shell: bash
+      run: ./bin/awsweeper ${{ inputs.file }}"
