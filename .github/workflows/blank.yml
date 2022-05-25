@@ -38,6 +38,6 @@ jobs:
           cp .github/workflows/config ~/.ssh/config
           cat ~/.ssh/config
       - name: Run a test
-        uses: andresjz/test/.github/actions/cleanup-aws
+        uses: andresjz/test/.github/actions/cleanup-aws@awsweeper
         with:
           dry_run: true
