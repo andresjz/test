@@ -18,7 +18,8 @@ runs:
       run: curl -sSfL https://raw.githubusercontent.com/jckuester/awsweeper/master/install.sh | sh -s v0.12.0
     - name: Configure config file
       shell: bash
-      run: echo "configure" && ls -la  && echo "----"  && ls -la ./.github/
+# run: echo "configure" && ./bin/awsweeper --help && ls -la  && echo "----"  && ls -la ./.github/
+      run: echo "configure" && ls -la  && echo "----"  && ls -la ./.github/ && ls -la ./.github/actions && ls -la ./.github/workflows
     - name: Run AWSweeper dry-run mode
       if: ${{ inputs.dry_run }}
       shell: bash
