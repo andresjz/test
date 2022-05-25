@@ -22,7 +22,7 @@ runs:
       if: ${{ inputs.dry_run }}
       shell: bash
       run: ./bin/awsweeper --dry-run ${{ inputs.file }}
-    - name: Run AWSweeper dry-run mode
+    - name: Run AWSweeper delete resources
       if: ${{ inputs.dry_run == false }} # https://github.com/actions/runner/issues/1483
       shell: bash
       run: ./bin/awsweeper ${{ inputs.file }}"
