@@ -13,8 +13,8 @@ inputs:
   run:
     required: false
     default: | 
-      awsweeper 
-      awsweeper --dry-run | tee dry-run-report.txt
+      /go/bin/awsweeper 
+      /go/bin/awsweeper --dry-run | tee dry-run-report.txt
 
 runs:
   using: 'docker'
