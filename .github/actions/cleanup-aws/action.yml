@@ -19,8 +19,10 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://andresjz/awsweeper:latest'
-  entrypoint: sh -c "${INPUT_RUN//$'\n'/;}"
+  image: 'Dockerfile'
+#  'docker://andresjz/awsweeper:latest'
+#  entrypoint: sh
+#  args: -c 'hello'
   
   # |
   #   echo "hello"
