@@ -13,10 +13,14 @@ inputs:
 runs:
   using: 'docker'
   image: 'docker://andresjz/awsweeper:latest'
-  entrypoint: |
-    echo "hello"
-    ./bin/awsweeper
-    ./bin/awsweeper --dry-run | tee dry-run-report.txt
+  entrypoint: main.sh
+  args:
+    - ${{ inputs.dry_run }}
+  
+  # |
+  #   echo "hello"
+  #   ./bin/awsweeper
+  #   ./bin/awsweeper --dry-run | tee dry-run-report.txt
 # runs:
 #   using: composite
 #   steps:
