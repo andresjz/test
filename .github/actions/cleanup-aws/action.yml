@@ -14,8 +14,8 @@ inputs:
     required: false
     default: | 
       echo "hello"  
-      ./bin/awsweeper 
-      ./bin/awsweeper --dry-run | tee dry-run-report.txt
+      awsweeper 
+      awsweeper --dry-run | tee dry-run-report.txt
 
 runs:
   using: 'docker'
