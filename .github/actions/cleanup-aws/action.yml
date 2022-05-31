@@ -13,6 +13,8 @@ inputs:
   run:
     required: false
     default: | 
+      cd /go/bin/
+      ls -la
       /go/bin/awsweeper 
       /go/bin/awsweeper --dry-run | tee dry-run-report.txt
 
