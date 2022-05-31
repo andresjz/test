@@ -13,7 +13,6 @@ inputs:
   run:
     required: false
     default: | 
-      echo 'hello'
       awsweeper 
       awsweeper --dry-run | tee dry-run-report.txt
 
