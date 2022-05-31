@@ -15,7 +15,8 @@ runs:
   image: 'andresjz/awsweeper:latest'
   entrypoint: |
     echo "hello"
-    ./bin/awsweeper --dry-run ${{ inputs.file }} | tee dry-run-report.txt
+    ./bin/awsweeper
+    ./bin/awsweeper --dry-run | tee dry-run-report.txt
 # runs:
 #   using: composite
 #   steps:
