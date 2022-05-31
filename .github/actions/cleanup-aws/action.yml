@@ -12,7 +12,7 @@ inputs:
     type: boolean
 runs:
   using: 'docker'
-  image: 'andresjz/awsweeper:latest'
+  image: 'docker://andresjz/awsweeper:latest'
   entrypoint: |
     echo "hello"
     ./bin/awsweeper
