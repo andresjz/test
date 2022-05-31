@@ -11,18 +11,26 @@ inputs:
     default: true
     type: boolean
 runs:
-  using: composite
-  steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: Install AWSweeper
-      shell: bash
-      run: curl -sSfL https://raw.githubusercontent.com/jckuester/awsweeper/master/install.sh | sh -s v0.12.0
-    - name: Run AWSweeper dry-run mode
-      if: ${{ inputs.dry_run }}
-      shell: bash
-      run: ./bin/awsweeper --dry-run ${{ inputs.file }}
-    - name: Run AWSweeper delete resources
-      if: ${{ inputs.dry_run == false }} # https://github.com/actions/runner/issues/1483
-      shell: bash
-      run: ./bin/awsweeper ${{ inputs.file }}"
+  using: 'docker'
+  image: 'andresjz/awsweeper:latest'
+  credentials:
+     username: ${{ github.actor }}
+     password: ${{ secrets.github_token }}
+     entrypoint: |
+      ./bin/awsweeper --dry-run ${{ inputs.file }} | tee dry-run-report.txt
+# runs:
+#   using: composite
+#   steps:
+#     - name: Checkout
+#       uses: actions/checkout@v2
+#     - name: Install AWSweeper
+#       shell: bash
+#       run: curl -sSfL https://raw.githubusercontent.com/jckuester/awsweeper/master/install.sh | sh -s v0.12.0
+#     - name: Run AWSweeper dry-run mode
+#       if: ${{ inputs.dry_run }}
+#       shell: bash
+#       run: ./bin/awsweeper --dry-run ${{ inputs.file }} | tee dry-run-report.txt
+#     - name: Run AWSweeper delete resources
+#       if: ${{ inputs.dry_run == false }} # https://github.com/actions/runner/issues/1483
+#       shell: bash
+#       run: ./bin/awsweeper ${{ inputs.file }}" | tee report.txt
