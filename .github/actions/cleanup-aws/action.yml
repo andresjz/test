@@ -13,12 +13,9 @@ inputs:
 runs:
   using: 'docker'
   image: 'andresjz/awsweeper:latest'
-  credentials:
-     username: ${{ github.actor }}
-     password: ${{ secrets.github_token }}
-     entrypoint: |
-      echo "hello"
-      ./bin/awsweeper --dry-run ${{ inputs.file }} | tee dry-run-report.txt
+  entrypoint: |
+    echo "hello"
+    ./bin/awsweeper --dry-run ${{ inputs.file }} | tee dry-run-report.txt
 # runs:
 #   using: composite
 #   steps:
