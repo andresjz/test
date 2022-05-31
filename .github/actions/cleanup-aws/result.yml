@@ -1,0 +1,1475 @@
+
+aws_athena_workgroup:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_autoscaling_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_backup_plan:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_backup_vault:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_cloudformation_stack:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_cloudwatch_log_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_codeartifact_domain:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_config_configuration_aggregator:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ami:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ebs_snapshot:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ebs_volume:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ec2_capacity_reservation:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ec2_client_vpn_endpoint:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ec2_fleet:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ec2_transit_gateway:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ec2_transit_gateway_peering_attachment:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ec2_transit_gateway_route_table:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_ec2_transit_gateway_vpc_attachment:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_instance:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_launch_template:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_nat_gateway:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_spot_fleet_request:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_spot_instance_request:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_vpc_endpoint:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_efs_file_system:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_elb:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_lb:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_fsx_lustre_file_system:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_fsx_windows_file_system:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_gamelift_alias:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_gamelift_build:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_globalaccelerator_accelerator:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_glue_crawler:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_glue_registry:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_glue_schema:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_iam_instance_profile:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_iam_policy:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_iam_role:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_iam_user:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_msk_cluster:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_media_store_container:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_db_instance:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_db_snapshot:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_route53_resolver_endpoint:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_route53_resolver_query_log_config:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_route53_resolver_rule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_s3_bucket:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_sagemaker_endpoint:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_sagemaker_feature_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_sagemaker_model:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_sagemaker_model_package_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_servicecatalog_portfolio:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_service_discovery_service:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_sfn_activity:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_sfn_state_machine:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_timestreamwrite_database:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_accessanalyzer_analyzer:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_acm_certificate:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_api_gateway_api_key:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_api_gateway_client_certificate:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_api_gateway_domain_name:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_api_gateway_rest_api:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_api_gateway_usage_plan:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_api_gateway_vpc_link:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_apigatewayv2_api:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_apigatewayv2_domain_name:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_apigatewayv2_vpc_link:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_appmesh_mesh:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_appsync_graphql_api:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_batch_compute_environment:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_batch_job_definition:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_cloudformation_stack_set:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_cloudhsm_v2_cluster:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_cloudtrail:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_cloudwatch_event_bus:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_codeartifact_repository:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_codebuild_project:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_codebuild_report_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_codecommit_repository:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_codepipeline_webhook:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_codestarconnections_connection:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_codestarnotifications_notification_rule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_config_config_rule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dms_certificate:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dms_endpoint:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dms_replication_subnet_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dms_replication_task:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_datasync_agent:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_datasync_task:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dx_connection:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dx_lag:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dx_private_virtual_interface:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dx_public_virtual_interface:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dx_transit_virtual_interface:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dlm_lifecycle_policy:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_dynamodb_table:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ec2_carrier_gateway:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ec2_local_gateway_route_table_vpc_association:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ec2_managed_prefix_list:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ec2_traffic_mirror_filter:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ec2_traffic_mirror_session:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ec2_traffic_mirror_target:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_egress_only_internet_gateway:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_eip:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_internet_gateway:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_key_pair:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_network_acl:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_network_interface:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_placement_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_route_table:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_security_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_subnet:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_vpc:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_vpc_endpoint_service:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_vpc_peering_connection:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_vpn_gateway:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ecr_repository:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ecs_cluster:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ecs_task_definition:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_efs_access_point:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_eks_cluster:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_elasticache_replication_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_elastic_beanstalk_application:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_elastic_beanstalk_application_version:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_elastic_beanstalk_environment:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_alb_target_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_lb_target_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_kinesis_firehose_delivery_stream:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_gamelift_fleet:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_gamelift_game_session_queue:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_glue_dev_endpoint:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_glue_job:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_glue_ml_transform:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_glue_trigger:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_glue_workflow:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_guardduty_detector:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_iam_server_certificate:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_imagebuilder_component:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_imagebuilder_distribution_configuration:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_imagebuilder_image:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_imagebuilder_image_pipeline:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_imagebuilder_image_recipe:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_imagebuilder_infrastructure_configuration:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_iot_topic_rule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_kinesis_stream:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_kinesis_analytics_application:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_kinesisanalyticsv2_application:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_kms_external_key:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_kms_key:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_lambda_function:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_licensemanager_license_configuration:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_lightsail_instance:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_macie2_classification_job:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_macie2_custom_data_identifier:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_macie2_findings_filter:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_media_convert_queue:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_media_package_channel:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_mq_broker:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_mq_configuration:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_mwaa_environment:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_neptune_event_subscription:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_networkfirewall_firewall:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_networkfirewall_firewall_policy:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_networkfirewall_rule_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_opsworks_stack:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_qldb_ledger:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_db_event_subscription:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_db_parameter_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_db_proxy:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_db_security_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_db_subnet_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_rds_cluster:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_rds_cluster_endpoint:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_rds_cluster_parameter_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_redshift_cluster:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_redshift_event_subscription:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_redshift_parameter_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_redshift_snapshot_copy_grant:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_redshift_snapshot_schedule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_redshift_subnet_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_route53_health_check:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_route53_zone:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_secretsmanager_secret:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_signer_signing_profile:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_sns_topic:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_sqs_queue:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ssm_activation:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ssm_document:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ssm_maintenance_window:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ssm_parameter:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_ssm_patch_baseline:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_storagegateway_gateway:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_storagegateway_tape_pool:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_synthetics_canary:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_transfer_server:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_waf_rate_based_rule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_waf_rule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_waf_rule_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_waf_web_acl:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_wafregional_rate_based_rule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_wafregional_rule:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_wafregional_rule_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_wafregional_web_acl:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_workspaces_directory:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_workspaces_ip_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_workspaces_workspace:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_xray_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+
+aws_launch_configuration:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_cloudwatch_event_archive:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_cloudwatch_log_destination:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_iam_access_key:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_iam_group:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_iam_service_linked_role:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_iot_certificate:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_msk_configuration:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_route53_resolver_query_log_config_association:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_s3outposts_endpoint:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_sagemaker_app_image_config:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_sagemaker_code_repository:
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_worklink_fleet:
+  - created: 
+      before: 1M
+      after: 2020-01-01
