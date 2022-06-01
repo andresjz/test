@@ -10,17 +10,20 @@ inputs:
     required: false
     default: true
     type: boolean
-  run:
-    required: false
-    default: | 
-      ls -la
-      pwd
-      /go/bin/awsweeper 
-      /go/bin/awsweeper --dry-run | tee dry-run-report.txt
 
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://andresjz/awsweeper:latest'
+  entrypoint: /dist/entrypoint.sh
+  env:
+    DRY_RUN: ${{ inputs.dry_run }}
+    CONFIG_FILE: ${{ inputs.config_file }}
+
+
+
+
+
+
 #  'docker://andresjz/awsweeper:latest'
 #  entrypoint: sh
 #  args: -c 'hello'
