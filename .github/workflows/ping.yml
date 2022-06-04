@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '*/30 07/00 * * *'
+    - cron: '*/30 07/23 * * *'
 
 jobs:
   ping_site:
